@@ -1,4 +1,4 @@
-import { searchFormImg } from './pixabay-api.js';
+import { searchFormImg } from './js/pixabay-api.js';
 import {
   showLoader,
   hideLoader,
@@ -6,7 +6,7 @@ import {
   clearImagesGallery,
   searchError,
   initializeLightbox,
-} from './render-functions.js';
+} from './js/render-functions.js';
 
 const loaderContainer = document.querySelector('.loader-container');
 const form = document.getElementById('form');
