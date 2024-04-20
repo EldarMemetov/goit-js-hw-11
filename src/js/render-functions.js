@@ -24,7 +24,7 @@ export function createMarkup({
   return `
 <li class="gallery-item">
   <a class="gallery-link" href="${largeImageURL}">
-    <img class="gallery-image" src="${webformatURL}" alt="${tags}" />
+    <img class="gallery-image" src="${webformatURL}" alt="${tags}" width="360" height="240" />
     <ul class="property-list">
       <li class="property-item">
         <p class="property-title">Likes</p>
