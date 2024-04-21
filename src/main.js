@@ -18,6 +18,8 @@ function handleSearch(event) {
   event.preventDefault();
   showLoader(loaderContainer);
 
+  clearImagesGallery(ulGroup);
+
   const inputForm = form.elements.img.value.trim();
 
   searchFormImg(inputForm)
